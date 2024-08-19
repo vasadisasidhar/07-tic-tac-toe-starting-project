@@ -1,3 +1,4 @@
+import Gameboard from "./Components/Gameboard";
 import Player from "./Components/Player";
 
 function Header() {
@@ -8,7 +9,7 @@ function Header() {
           <Player initialName="Player-1" symbol="x"></Player>
           <Player initialName="Player-2" symbol="O"></Player>
         </ol>
-        GAME BOARD
+        <Gameboard/>
       </div>
       LOG
     </main>
